@@ -28,4 +28,7 @@ class PageController extends Controller {
 		return new TemplateResponse('changecontrols', 'index');  // templates/index.php
 	}
 
+
+
+
 }

@@ -11,5 +11,7 @@ return [
     'routes' => [
 	   ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
 	   ['name' => 'page#do_echo', 'url' => '/echo', 'verb' => 'POST'],
+       ['name' => 'controls#index', 'url' => '/home', 'verb' => 'GET'],
+       ['name' => 'controls#new', 'url' => '/new', 'verb' => 'GET'],
     ]
 ];

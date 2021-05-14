@@ -1,10 +1,7 @@
 <ul>
-	<li><a href="#">First level entry</a></li>
+	<li><a href="home">Open Change Controls</a></li>
 	<li>
-		<a href="#">First level container</a>
-		<ul>
-			<li><a href="#">Second level entry</a></li>
-			<li><a href="#">Second level entry</a></li>
-		</ul>
+		<a href="new">New Change Control</a>
+		
 	</li>
 </ul>
