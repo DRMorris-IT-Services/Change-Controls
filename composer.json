@@ -1,0 +1,15 @@
+{
+    "name": "Change Controls",
+    "description": "The Change Control module allows easy managent of changes within the organisation",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Duncan Morris"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

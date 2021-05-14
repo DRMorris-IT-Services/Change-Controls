@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>changecontrols</id>
+    <name>Change Controls</name>
+    <summary>The Change Control module allows easy managent of changes within the organisation</summary>
+    <description><![CDATA[The Change Control module allows you to manage changes within a controlled manner.  Useful for ITIL and QA controlled companies.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="d.morris@drmorris-itservices.de" homepage="https://drmorris-itservices.de">Duncan Morris</author>
+    <namespace>ChangeControls</namespace>
+    <category>organization</category>
+    <bugs>https://github.com/DRMorris-IT-Services/Change-Controls/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Change Controls</name>
+            <route>changecontrols.page.index</route>
+        </navigation>
+    </navigations>
+</info>
